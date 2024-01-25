@@ -1,0 +1,66 @@
+.array-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-end;
+  height: 200px;
+  /* Điều chỉnh chiều cao của container */
+}
+
+/* 
+.array-bar {
+  background-color: #3f51b5;
+  border: 1px solid #333;
+  display: inline-block;
+  margin-right: 2px;
+  text-align: center;
+  color: white;
+  transition: height 0.3s ease;
+  /* Thêm hiệu ứng transition */
+
+/* 
+.array-bar:hover {
+  background-color: #5c6bc0;
+} 
+*/
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: #252c33;
+}
+
+.array-bar {
+  margin: 0.2%;
+  display: inline-block;
+  background-color: turquoise;
+  padding-top: 20px;
+  color: transparent;
+  width: 10px;
+}
+
+
+@media (max-width: 800px) {
+  .array-bar {
+    margin: 0.1%;
+  }
+}
+
+.value-inside-bar {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.bar-value {
+  color: white;
+  font-size: 7px;
+  font-weight: bold;
+}
+
+.array-bar.sorted {
+  background-color: #4caf50;
+  /* Màu xanh lá cây */
+}
